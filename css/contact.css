@@ -52,8 +52,14 @@ nav {
 .top-menu li a:hover::after {
 transform: scale(1);
 }
+.top-menu {
+  font-size: 0.7rem;
+}
 .address {
   margin-left: 5rem;
+}
+.address h6 {
+  font-family: 'Montserrat', sans-serif;
 }
 .img__logo {
   margin-left: 25px;
