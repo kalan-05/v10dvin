@@ -73,6 +73,13 @@ transform: scale(1);
 }
 /* header */
 /* main */
+.card_style {
+  color: rgba(238, 236, 236, 0.79) !important;
+  text-shadow: 1px 1px 1px #000;
+}
+.card_style h3 {
+  line-height: 3rem;
+}
 .carousel-item h1 {
   font-size: 2rem;
   line-height: 3rem;

@@ -130,6 +130,7 @@ font-weight: 400;
 }
 .list {
   list-style: none;
+  line-height: 3rem;
 }
 /* btn */
 .btn-record {
