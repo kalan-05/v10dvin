@@ -1,503 +1,554 @@
 <!doctype html>
 <html lang="ru">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Студия на Двинской</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/directions.css">
-  </head>
-  <body>
+</head>
+<body>
 
-      <nav container-xxl class="navbar fixed-top navbar-expand-xl bg-body-tertiary">
+<nav container-xxl class="navbar fixed-top navbar-expand-xl bg-body-tertiary">
 
-        <div class="container-xxl">
-          <div class="img__logo">
+    <div class="container-xxl">
+        <div class="img__logo">
             <img class="img_l" src="./image/img/logo_radios.jpg" alt="logo">
             <!-- <a href="#" class="logo"> -->
-          </div>
-            <a class="navbar-brand" style="font-size: 1rem" href="#">Студия <br> на Двинской</a>
-            <div class="address">
-              <h6 style="font-size: 0.8rem" >
-                Санкт-Петербург, <br> ул. Двинская, д. 14 а
-              </h6>
+        </div>
+        <a class="navbar-brand" style="font-size: 1rem" href="index.html">Студия <br> на Двинской</a>
+        <!--            <div class="address align-items-center">-->
+        <!--              <h6>-->
+        <!--                Санкт-Петербург, <br> ул. Двинская, д. 14 а-->
+        <!--                <br>+7 999 528 54 03-->
+        <!--              </h6>-->
+        <!--            </div>-->
+        <div class="address align-items-center text-center">
+            <h6>
+                м. Нарвская,<br> Балтийская
+                <br>+7 999 528 54 03
+            </h6>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0 top-menu">
+                <!--                <li class="nav-item">-->
+                <!--                  <a class="nav-link active" aria-current="page" href="index.html">ГЛАВНАЯ</a>-->
+                <!--                </li>-->
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="about.html">О НАС</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="directions.html">НАПРАВЛЕНИЯ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cost.html">СТОИМОСТЬ</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="schedule.html">РАСПИСАНИЕ</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">КОНТАКТЫ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- /* header */ -->
+<!-- /* main */ -->
+<main>
+    <div id="carouselExampleCaptions" class="carousel slide my-carousel">
+        <!-- <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div> -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/img/img2.PNG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Студия на Двинской<br>
+                        - пространство,
+                        <br>
+                        созданное для Вас!</h1>
+                    <!-- <p>           Студия на Двинской
+                      - это пространство,
+                      <br>
+                      созданное для Вас!</p> -->
+                </div>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-              <ul class="navbar-nav mr-auto mb-2 mb-lg-0 top-menu">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">ГЛАВНАЯ</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">О НАС</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="directions.html">НАПРАВЛЕНИЯ</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="schedule.html">РАСПИСАНИЕ</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="cost.html">СТОИМОСТЬ</a>
-                </li>
-                  <li class="nav-item">
-                  <a class="nav-link" href="contact.html">КОНТАКТЫ</a>
-                </li>
-              </ul>
+            <div class="carousel-item">
+                <img src="image/img/IMG_11.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5>Метка второго слайда</h5>
+                    <p>Некоторый репрезентативный заполнитель для второго слайда.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/img/C3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5>Метка третьего слайда</h5>
+                    <p>Некоторый репрезентативный заполнитель для третьего слайда.</p> -->
+                </div>
             </div>
         </div>
-      </nav>
-                      <!-- /* header */ -->
-                      <!-- /* main */ -->
-      <main>
-        <div id="carouselExampleCaptions" class="carousel slide my-carousel">
-          <!-- <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div> -->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="image/img/img2.PNG" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h1>Студия на Двинской<br>
-                  - пространство,
-                  <br>
-                  созданное для Вас!</h1>
-                <!-- <p>           Студия на Двинской
-                  - это пространство,
-                  <br>
-                  созданное для Вас!</p> -->
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="image/img/IMG_11.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <!-- <h5>Метка второго слайда</h5>
-                <p>Некоторый репрезентативный заполнитель для второго слайда.</p> -->
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="image/img/C3.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <!-- <h5>Метка третьего слайда</h5>
-                <p>Некоторый репрезентативный заполнитель для третьего слайда.</p> -->
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Предыдущий</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Следующий</span>
-          </button>
-        </div>
-      <section>
+        </button>
+    </div>
+    <section>
 
 
-          <div class="container-xxl text-center d-flex justify-content-center">
+        <div class="container-xxl text-center d-flex justify-content-center">
             <div class="container text-center">
                 <div class="container-xxl">
                     <h1 class="text-start title-h1 mt-1 mb-4">НАПРАВЛЕНИЯ</h1>
                 </div>
                 <hr>
-<!--              <div class="row">-->
-<!--                  <div class="content col-xl-12">-->
-<!--                    <div class="card-text">-->
-<!--                        <ul class="list text-start">-->
-<!--                          <li class="text-center card-title"><h3>Команда Студии на Двинской всегда рада встрече с вами!</h3></li>-->
-<!--                          <br>-->
-<!--                          <li>Мы умеем вдохновлять, <br> Мы настраиваем на позитив, <br> Мы дарим душевное тепло каждому посетителю нашей Студии!</li>-->
-<!--                          <br>-->
-<!--                          <li>В нашем расписании есть занятия для любого уровня подготовки, рассчитанные на посещение в удобное для своих гостей время.</li>-->
-<!--                          <br>-->
-<!--                           <li>Сертифицированные фитнес-тренеры и педагоги, имеющие профессиональное образование, учтут все ваши пожелания и найдут индивидуальный подход к каждому!</li>-->
-<!--                          <br>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--              </div>-->
-               <div class="container-xxl">
-                <h2 class="text-start title__child-h2 mt-1 mb-4">ДЕТСКИЕ НАПРАВЛЕНИЯ</h2>
-              </div>
-              <div class="container text-center">
-                        <div class="row mb-auto text-center">
-                          <div class="text-center col-xl-6 col-md-6 col-sm-12 card_list">
+                <!--              <div class="row">-->
+                <!--                  <div class="content col-xl-12">-->
+                <!--                    <div class="card-text">-->
+                <!--                        <ul class="list text-start">-->
+                <!--                          <li class="text-center card-title"><h3>Команда Студии на Двинской всегда рада встрече с вами!</h3></li>-->
+                <!--                          <br>-->
+                <!--                          <li>Мы умеем вдохновлять, <br> Мы настраиваем на позитив, <br> Мы дарим душевное тепло каждому посетителю нашей Студии!</li>-->
+                <!--                          <br>-->
+                <!--                          <li>В нашем расписании есть занятия для любого уровня подготовки, рассчитанные на посещение в удобное для своих гостей время.</li>-->
+                <!--                          <br>-->
+                <!--                           <li>Сертифицированные фитнес-тренеры и педагоги, имеющие профессиональное образование, учтут все ваши пожелания и найдут индивидуальный подход к каждому!</li>-->
+                <!--                          <br>-->
+                <!--                        </ul>-->
+                <!--                    </div>-->
+                <!--                  </div>-->
+                <!--              </div>-->
+                <div>
+                    <h2 class="text-start title__child-h2 mt-1 mb-4">ДЕТСКИЕ НАПРАВЛЕНИЯ</h2>
+                </div>
+                <div class="container text-center">
+                    <div class="row mb-auto text-center">
+                        <div class="text-center col-xl-6 col-md-6 col-sm-12 card_list">
                             <div class="card-about">
-                              <div class="picture picture_img1"></div>
-                              <div class="card-body">
-                                <h5 class="card-title mt-3 mb-2">Хореография</h5>
-                                    <p class="text_card">Профессиональный педагог-хореограф нашей Студии поможет вашим детям приобрести ритмичность, пластичность и музыкальность. В результате занятий детской хореографией решится проблема сутулости, будет сформирована правильная осанка!  <br>
-                                      <br>продолжительность - 60 минут
+                                <div class="picture picture_img1"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title mt-3 mb-2">Хореография</h5>
+                                    <p class="text_card">Профессиональный педагог-хореограф нашей Студии поможет вашим
+                                        детям приобрести ритмичность, пластичность и музыкальность. В результате занятий
+                                        детской хореографией решится проблема сутулости, будет сформирована правильная
+                                        осанка! <br>
+                                        <br>продолжительность - 60 минут
                                     </p>
                                     <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                      <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
-                                      <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
+                                        <a href="https://wa.me//79995285403" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
+                                        <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-telegram'></i> записаться</a>
                                     </div>
-                              </div>
+                                </div>
                             </div>
-                          </div>
-<!--                          <div class="col-xl-4 col-md-6 col-sm-12">-->
-<!--                            <div class="card-about">-->
-<!--                              <div class="picture picture_img2"></div>-->
-<!--                              <div class="card-body">-->
-<!--                                <h5 class="card-title mt-3 mb-2">Кружок "Улыбка"</h5>-->
-<!--                                    <p class="text_card">Занятия танцами раскроют внутренний мир и творческий потенциал ваших детей. В процессе обучения в Студии у ребят разовьется выразительность, координация движений и артистичность!-->
-<!--                                      <br><br>продолжительность - 60 минут-->
-<!--                                    </p>-->
-<!--                                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">-->
-<!--                                      <a href="https://wa.me//79995285403" class="btn btn mt-sm-4 btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>-->
-<!--                                      <a href="https://t.me/studianadvinskoy" class="btn btn mt-sm-4 btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>-->
-<!--                                    </div>-->
-<!--                              </div>-->
-<!--                            </div>-->
-<!--                          </div>-->
+                        </div>
+                        <!--                          <div class="col-xl-4 col-md-6 col-sm-12">-->
+                        <!--                            <div class="card-about">-->
+                        <!--                              <div class="picture picture_img2"></div>-->
+                        <!--                              <div class="card-body">-->
+                        <!--                                <h5 class="card-title mt-3 mb-2">Кружок "Улыбка"</h5>-->
+                        <!--                                    <p class="text_card">Занятия танцами раскроют внутренний мир и творческий потенциал ваших детей. В процессе обучения в Студии у ребят разовьется выразительность, координация движений и артистичность!-->
+                        <!--                                      <br><br>продолжительность - 60 минут-->
+                        <!--                                    </p>-->
+                        <!--                                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">-->
+                        <!--                                      <a href="https://wa.me//79995285403" class="btn btn mt-sm-4 btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>-->
+                        <!--                                      <a href="https://t.me/studianadvinskoy" class="btn btn mt-sm-4 btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>-->
+                        <!--                                    </div>-->
+                        <!--                              </div>-->
+                        <!--                            </div>-->
+                        <!--                          </div>-->
 
-                          <div class="col-xl-6 col-md-6 col-sm-12 card_list">
+                        <div class="col-xl-6 col-md-6 col-sm-12 card_list">
                             <div class="card-about">
-                              <div class="picture picture_img3"></div>
-                              <div class="card-body">
-                                <h5 class="card-title mt-3 mb-2">Художественная гимнастика</h5>
-                                    <p class="text_card mt-0 mb-1">Во время тренировок у юных гимнасток разовьется гибкость связок и растяжка. Приобретутся дисциплина и сила воли. Появится возможность участия в районных и городских соревнованиях!
-                                      <br><br>продолжительность - 60 минут
+                                <div class="picture picture_img3"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title mt-3 mb-2">Художественная гимнастика</h5>
+                                    <p class="text_card mt-0 mb-1">Во время тренировок у юных гимнасток разовьется
+                                        гибкость связок и растяжка. Приобретутся дисциплина и сила воли. Появится
+                                        возможность участия в районных и городских соревнованиях!
+                                        <br><br>продолжительность - 60 минут
 
                                     </p>
                                     <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                      <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
-                                      <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
+                                        <a href="https://wa.me//79995285403" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
+                                        <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-telegram'></i> записаться</a>
                                     </div>
-                              </div>
+                                </div>
                             </div>
-                          </div>
+                        </div>
 
 
-
-                            <div class="col-xl-6 col-md-6 col-sm-12 card_list">
-                              <div class="card-about">
+                        <div class="col-xl-6 col-md-6 col-sm-12 card_list">
+                            <div class="card-about">
                                 <div class="picture picture_img4"></div>
                                 <div class="card-body">
                                     <h5 class="card-title mt-3 mb-2">ОФП</h5>
-                                        <p class="text_card">Опытный тренер нашей Студии включит в занятия ОФП все базовые элементы физкультуры и гимнастики. Обучит ребят работе с фитнес-инвентарем и даст комплекс упражнений на фитнес-мяче "арахис"!
+                                    <p class="text_card">Опытный тренер нашей Студии включит в занятия ОФП все базовые
+                                        элементы физкультуры и гимнастики. Обучит ребят работе с фитнес-инвентарем и
+                                        даст комплекс упражнений на фитнес-мяче "арахис"!
                                         <br><br>продолжительность - 60 минут
-                                        </p>
-                                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                          <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
-                                          <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
-                                        </div>
+                                    </p>
+                                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                        <a href="https://wa.me//79995285403" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
+                                        <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-telegram'></i> записаться</a>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
+                        </div>
 
-                          <div class="col-xl-6 col-md-6 col-sm-12 card_list">
+                        <div class="col-xl-6 col-md-6 col-sm-12 card_list">
                             <div class="card-about">
-                              <div class="picture picture_img5"></div>
-                              <div class="card-body">
-                                <h5 class="card-title mt-3 mb-2">Хип-Хоп</h5>
-                                    <p class="text_card">Данное направление не оставит равнодушным ребенка с любым уровнем подготовки! Тренировки помогут вашим детям выразить свои эмоции и раскрепоститься благодаря движениям, которые подсказывает само тело!
-                                    <br><br>продолжительность - 60 минут
+                                <div class="picture picture_img5"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title mt-3 mb-2">Хип-Хоп</h5>
+                                    <p class="text_card">Данное направление не оставит равнодушным ребенка с любым
+                                        уровнем подготовки! Тренировки помогут вашим детям выразить свои эмоции и
+                                        раскрепоститься благодаря движениям, которые подсказывает само тело!
+                                        <br><br>продолжительность - 60 минут
                                     </p>
                                     <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                      <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
-                                      <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
+                                        <a href="https://wa.me//79995285403" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
+                                        <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-telegram'></i> записаться</a>
                                     </div>
-                              </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-xl-4 col-md-6 col-sm-12">
+                          <div class="card-about">
+                            <div class="picture picture_img6"></div>
+                            <div class="card-body">
+                              <h5 class="card-title mt-3 mb-2">ПРОБНОЕ ЗАНЯТИЕ</h5>
+                                  <p class="text_card">1 час - 400 р.
+                                    <br><br> 1.5 часа - 600 р.
+                                  </p>
                             </div>
                           </div>
-                          <!-- <div class="col-xl-4 col-md-6 col-sm-12">
-                            <div class="card-about">
-                              <div class="picture picture_img6"></div>
-                              <div class="card-body">
-                                <h5 class="card-title mt-3 mb-2">ПРОБНОЕ ЗАНЯТИЕ</h5>
-                                    <p class="text_card">1 час - 400 р.
-                                      <br><br> 1.5 часа - 600 р.
-                                    </p>
-                              </div>
-                            </div>
-                          </div> -->
+                        </div> -->
 
-                            </div>
-                          </div>
-                        </div>
-                        </div>
-
-              </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <!-- записаться кнопки -->
-<!--      <div class="container-xxl text-center justify-content-center">-->
-<!--        <div class="row">-->
-<!--          <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12  mx-auto">-->
-<!--            &lt;!&ndash; <a class="btn record btn-secondary btn-lg btn-md text-uppercase" ><i class='bx bxl-whatsapp'></i>записаться</a> &ndash;&gt;-->
-<!--            <a href="https://wa.me//79995285403" class="btn btn-record bg-secondary-subtle btn-lg btn-md mx-5 text-uppercase"><i class='bx bxl-whatsapp'></i>записаться</a>-->
-<!--            <a href="https://t.me/studianadvinskoy" class="btn btn-record bg-secondary-subtle btn-lg btn-md text-uppercase"><i class='bx bxl-telegram'></i>записаться</a>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
+        </div>
+
+
+        <!-- записаться кнопки -->
+        <!--      <div class="container-xxl text-center justify-content-center">-->
+        <!--        <div class="row">-->
+        <!--          <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12  mx-auto">-->
+        <!--            &lt;!&ndash; <a class="btn record btn-secondary btn-lg btn-md text-uppercase" ><i class='bx bxl-whatsapp'></i>записаться</a> &ndash;&gt;-->
+        <!--            <a href="https://wa.me//79995285403" class="btn btn-record bg-secondary-subtle btn-lg btn-md mx-5 text-uppercase"><i class='bx bxl-whatsapp'></i>записаться</a>-->
+        <!--            <a href="https://t.me/studianadvinskoy" class="btn btn-record bg-secondary-subtle btn-lg btn-md text-uppercase"><i class='bx bxl-telegram'></i>записаться</a>-->
+        <!--          </div>-->
+        <!--        </div>-->
+        <!--      </div>-->
     </section>
 
 
+    <section>
+        <!-- <div class="container-xxl">
+                 <h2 class="text-start title-h1 mt-1 mb-4">ВЗРОСЛЫЕ НАПРАВЛЕНИЯ</h2>
+               </div> -->
 
-      <section>
-       <!-- <div class="container-xxl">
-                <h2 class="text-start title-h1 mt-1 mb-4">ВЗРОСЛЫЕ НАПРАВЛЕНИЯ</h2>
-              </div> -->
-
-          <div class="container-xxl text-center d-flex justify-content-center">
+        <div class="container-xxl text-center d-flex justify-content-center">
             <div class="container text-center">
-              <!-- <div class="row">
-                  <div class="content col-xl-12">
-                    <div class="card-text">
-                        <ul class="list text-start">
-                          <li class="text-center card-title"><h3>Команда Студии на Двинской всегда рада встрече с вами!</h3></li>
-                          <br>
-                          <li>Мы умеем вдохновлять, <br> Мы настраиваем на позитив, <br> Мы дарим душевное тепло каждому посетителю нашей Студии!</li>
-                          <br>
-                          <li>В нашем расписании есть занятия для любого уровня подготовки, рассчитанные на посещение в удобное для своих гостей время.</li>
-                          <br>
-                           <li>Сертифицированные фитнес-тренеры и педагоги, имеющие профессиональное образование, учтут все ваши пожелания и найдут индивидуальный подход к каждому!</li>
-                          <br>
-                        </ul>
+                <!-- <div class="row">
+                    <div class="content col-xl-12">
+                      <div class="card-text">
+                          <ul class="list text-start">
+                            <li class="text-center card-title"><h3>Команда Студии на Двинской всегда рада встрече с вами!</h3></li>
+                            <br>
+                            <li>Мы умеем вдохновлять, <br> Мы настраиваем на позитив, <br> Мы дарим душевное тепло каждому посетителю нашей Студии!</li>
+                            <br>
+                            <li>В нашем расписании есть занятия для любого уровня подготовки, рассчитанные на посещение в удобное для своих гостей время.</li>
+                            <br>
+                             <li>Сертифицированные фитнес-тренеры и педагоги, имеющие профессиональное образование, учтут все ваши пожелания и найдут индивидуальный подход к каждому!</li>
+                            <br>
+                          </ul>
+                      </div>
                     </div>
-                  </div>
-              </div> -->
-               <div class="container-xxl">
-                <h2 class="text-start title-h2 mt-1 mb-4">ВЗРОСЛЫЕ НАПРАВЛЕНИЯ</h2>
-              </div>
-              <div class="container">
-                        <div class="row mb-auto justify-content-center">
-                          <div class="col-xl-4 col-md-6 col-sm-12 card_list">
+                </div> -->
+                <div>
+                    <h2 class="text-start title-h2 mt-1 mb-4">ВЗРОСЛЫЕ НАПРАВЛЕНИЯ</h2>
+                </div>
+                <div class="container">
+                    <div class="row mb-auto justify-content-center">
+                        <div class="col-xl-4 col-md-6 col-sm-12">
                             <div class="card-about">
-                              <div class="picture picture_img6"></div>
-                              <div class="card-body">
-                                <h5 class="card-title mt-3 mb-2">Zumba</h5>
-                                    <p class="text_card">Эффективная зажигательная фитнес-тренировка, содержащая в себе элементы силовой и кардио тренировок, даст вам нагрузку на все группы мышц одновременно. Подарит отличное настроение! <br>
-                                      <br>продолжительность - 60 минут
+                                <div class="picture picture_img6"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title mt-3 mb-2">Zumba</h5>
+                                    <p class="text_card">Эффективная зажигательная фитнес-тренировка, содержащая в себе
+                                        элементы силовой и кардио тренировок, даст вам нагрузку на все группы мышц
+                                        одновременно. Подарит отличное настроение! <br>
+                                        <br>продолжительность - 60 минут
                                     </p>
                                     <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                      <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
-                                      <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
+                                        <a href="https://wa.me//79995285403" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
+                                        <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-telegram'></i> записаться</a>
                                     </div>
-                              </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="col-xl-4 col-md-6 col-sm-12">
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-sm-12">
                             <div class="card-about">
-                              <div class="picture picture_img7"></div>
-                              <div class="card-body">
-                                <h5 class="card-title mt-3 mb-2">Fitball (фитбол)</h5>
-                                    <p class="text_card">На тренировке «Fitball» в нашей Студии вы не только прокачаете мышцы и создадите  красивый рельеф, но и по достоинству оцените устойчивость эксклюзивной формы фитнес-мяча "арахис"!
-                                      <br><br>продолжительность - 60 минут
+                                <div class="picture picture_img7"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title mt-3 mb-2">Fitball (фитбол)</h5>
+                                    <p class="text_card">На тренировке «Fitball» в нашей Студии вы не только прокачаете
+                                        мышцы и создадите красивый рельеф, но и по достоинству оцените устойчивость
+                                        эксклюзивной формы фитнес-мяча "арахис"!
+                                        <br><br>продолжительность - 60 минут
                                     </p>
                                     <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                      <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
-                                      <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
+                                        <a href="https://wa.me//79995285403" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
+                                        <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-telegram'></i> записаться</a>
                                     </div>
-                              </div>
+                                </div>
                             </div>
-                          </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-sm-12">
+                            <div class="card-about">
+                                <div class="picture picture_img8"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title mt-3 mb-2">Total Body</h5>
+                                    <p class="text_card">Вы почувствуете удовольствие от тотальной проработки тела!
+                                        Выполните серию статических и динамических упражнений, которые позволят
+                                        задействовать все группы мышц и потратить 600 ккал за одну тренировку!
+                                        <br><br>продолжительность - 60 минут
 
-                          <div class="col-xl-4 col-md-6 col-sm-12">
-                            <div class="card-about">
-                              <div class="picture picture_img8"></div>
-                              <div class="card-body">
-                                <h5 class="card-title mt-3 mb-2">Total Body</h5>
-                                    <p class="text_card">Вы почувствуете удовольствие от тотальной проработки тела! Выполните серию статических и динамических упражнений, которые позволят задействовать все группы мышц и потратить 600 ккал за одну тренировку!
-                                      <br><br>продолжительность - 60 минут
-
                                     </p>
                                     <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                      <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
-                                      <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
+                                        <a href="https://wa.me//79995285403" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
+                                        <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-telegram'></i> записаться</a>
                                     </div>
-                              </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-sm-12">
+                            <div class="card-about">
+                                <div class="picture picture_img9"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title mt-3 mb-2">Пилатес</h5>
+                                    <p class="text_card">В нашей Студии вы ощутите пользу и здоровье от тренировки по
+                                        системе <br>Дж. Пилатеса. Все движения вы будете выполнять медленно и плавно.
+                                        Нагрузка подойдет людям с любым уровнем подготовки!
+                                        <br><br>продолжительность - 60 минут
+                                    </p>
+                                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                        <a href="https://wa.me//79995285403" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
+                                        <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-telegram'></i> записаться</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-sm-12">
+                            <div class="card-about">
+                                <div class="picture picture_img10"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title mt-3 mb-2">Стретчинг</h5>
+                                    <p class="text_card">Тренировки, включающие гимнастические упражнения на растяжку
+                                        глубоких мышц спины, шеи, рук и ног, помогут вам приобрести гибкость тела,
+                                        вернуть подвижность позвонкам, а связкам - эластичность!
+                                        <br><br>продолжительность - 60 минут
+                                    </p>
+                                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                        <a href="https://wa.me//79995285403" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
+                                        <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-telegram'></i> записаться</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-sm-12">
+                            <div class="card-about">
+                                <div class="picture picture_img11"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title mt-3 mb-2">Йога</h5>
+                                    <p class="text_card">Вы почувствуете себя лучше не только физически, но и духовно
+                                        после практик, проводимых в нашей Студии. Комплекс асан поможет вам проработать
+                                        мышцы и суставы, а пранаямы раскроют новые горизонты сознания!
+                                        <br><br> продолжительность - 90 минут
+                                    </p>
+                                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                        <a href="https://wa.me//79995285403" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
+                                        <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-telegram'></i> записаться</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-sm-12">
+                            <div class="card-about">
+                                <div class="picture picture_img12"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title mt-3 mb-2">Здоровый позвоночник</h5>
+                                    <p class="text_card">На занятиях с помощью мягких техник и растяжки тренер Студии
+                                        поможет вам избавиться от болезненных ощущений, добавить питания фасциям и
+                                        обеспечить мобильность всех отделов позвоночника!
+                                        <br><br> продолжительность - 60 минут
+                                    </p>
+                                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                        <a href="https://wa.me//79995285403" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
+                                        <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-telegram'></i> записаться</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-sm-12">
+                            <div class="card-about">
+                                <div class="picture picture_img13"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title mt-3 mb-2">Балетная осанка</h5>
+                                    <p class="text_card">Наш педагог-хореограф покажет комплекс упражнений, с помощью
+                                        которого вы сможете
+                                        приобрести грациозный поворот головы и избавиться от сутулости! Отличным
+                                        завершением тренировки станет балетный Стретчинг (растяжка)!
+                                        <br><br> продолжительность - 90 минут
+                                    </p>
+                                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                        <a href="https://wa.me//79995285403" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
+                                        <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-telegram'></i> записаться</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="col-xl-4 col-md-6 col-sm-12">
+                         <div class="card-about">
+                           <div class="picture picture_img16"></div>
+                           <div class="card-body">
+                             <h5 class="card-title mt-3 mb-2">Боди-балет</h5>
+                                 <p class="text_card">Откройте в себе балерину! Под аккомпанемент классической музыки и наставничество педагога-хореографа Студии, вы будете выполнять плавные упражнения балетного экзерсиса, держась за профессиональный хореографический станок!
+                                   <br><br> продолжительность - 60 минут
+                                 </p>
+                                 <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                   <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
+                                   <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
+                                 </div>
+                           </div>
+                         </div>
+                       </div>-->
+                        <!--<div class="col-xl-4 col-md-6 col-sm-12">
+                          <div class="card-about">
+                            <div class="picture picture_img14"></div>
+                            <div class="card-body">
+                              <h5 class="card-title mt-3 mb-2">Боди-релакс</h5>
+                                  <p class="text_card">Вы сможете отлично завершить выходной день тренировкой "Боди-релакс"! Программа, объединившая в себе упражнения из нескольких направлений: Пилатеса, Стретчинга (растяжки) и Йоги, подойдет всем любителям вечерних тренировок!
+                                    <br><br> продолжительность - 60 минут
+                                  </p>
+                                  <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                    <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
+                                    <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
+                                  </div>
                             </div>
                           </div>
-
-                            <div class="col-xl-4 col-md-6 col-sm-12">
+                        </div>-->
+                        <div class="col-xl-4 col-md-6 col-sm-12">
                             <div class="card-about">
-                              <div class="picture picture_img9"></div>
-                              <div class="card-body">
-                                <h5 class="card-title mt-3 mb-2">Пилатес</h5>
-                                    <p class="text_card">В нашей Студии вы ощутите пользу и здоровье от тренировки по системе <br>Дж. Пилатеса. Все движения вы будете выполнять медленно и плавно. Нагрузка подойдет людям с любым уровнем подготовки!
-                                    <br><br>продолжительность - 60 минут
+                                <div class="picture picture_img15"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title mt-3 mb-2">Утренняя гимнастика</h5>
+                                    <p class="text_card">Получить заряд бодрости, здоровья и хорошего настроения на весь
+                                        день? Легко! Вместе с нашим фитнес-тренером вы оздоровите позвоночник, укрепите
+                                        мышцы и связки, улучшите кровообращение, запустите метаболизм!
+                                        <br><br> продолжительность - 60 минут
                                     </p>
                                     <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                      <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
-                                      <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
+                                        <a href="https://wa.me//79995285403" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
+                                        <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary"
+                                           type="button"><i class='bx bxl-telegram'></i> записаться</a>
                                     </div>
-                              </div>
+                                </div>
                             </div>
-                          </div>
-
-                          <div class="col-xl-4 col-md-6 col-sm-12">
-                            <div class="card-about">
-                              <div class="picture picture_img10"></div>
-                              <div class="card-body">
-                                <h5 class="card-title mt-3 mb-2">Стретчинг</h5>
-                                    <p class="text_card">Тренировки, включающие гимнастические упражнения на растяжку глубоких мышц спины, шеи, рук и ног, помогут вам приобрести гибкость тела, вернуть подвижность позвонкам, а связкам - эластичность!
-                                    <br><br>продолжительность - 60 минут
-                                    </p>
-                                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                      <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
-                                      <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
-                                    </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-4 col-md-6 col-sm-12">
-                            <div class="card-about">
-                              <div class="picture picture_img11"></div>
-                              <div class="card-body">
-                                <h5 class="card-title mt-3 mb-2">Йога</h5>
-                                    <p class="text_card">Вы почувствуете себя лучше не только физически, но и духовно после практик, проводимых в нашей Студии. Комплекс асан поможет вам проработать мышцы и суставы, а пранаямы раскроют новые горизонты сознания!
-                                      <br><br> продолжительность - 90 минут
-                                    </p>
-                                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                      <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
-                                      <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
-                                    </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-4 col-md-6 col-sm-12">
-                            <div class="card-about">
-                              <div class="picture picture_img12"></div>
-                              <div class="card-body">
-                                <h5 class="card-title mt-3 mb-2">Здоровый позвоночник</h5>
-                                    <p class="text_card">На занятиях с помощью мягких техник и растяжки тренер Студии поможет вам избавиться от болезненных ощущений, добавить питания фасциям и обеспечить мобильность всех отделов позвоночника!
-                                      <br><br> продолжительность - 60 минут
-                                    </p>
-                                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                      <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
-                                      <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
-                                    </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-xl-4 col-md-6 col-sm-12">
-                            <div class="card-about">
-                              <div class="picture picture_img13"></div>
-                              <div class="card-body">
-                                <h5 class="card-title mt-3 mb-2">Балетная осанка</h5>
-                                    <p class="text_card">Наш педагог-хореограф покажет комплекс упражнений, с помощью которого вы сможете
-                                    приобрести грациозный поворот головы и избавиться от сутулости! Отличным завершением тренировки станет балетный Стретчинг (растяжка)!
-                                      <br><br> продолжительность - 90 минут
-                                    </p>
-                                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                      <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
-                                      <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
-                                    </div>
-                              </div>
-                            </div>
-                          </div>
-                           <!--<div class="col-xl-4 col-md-6 col-sm-12">
-                            <div class="card-about">
-                              <div class="picture picture_img16"></div>
-                              <div class="card-body">
-                                <h5 class="card-title mt-3 mb-2">Боди-балет</h5>
-                                    <p class="text_card">Откройте в себе балерину! Под аккомпанемент классической музыки и наставничество педагога-хореографа Студии, вы будете выполнять плавные упражнения балетного экзерсиса, держась за профессиональный хореографический станок!
-                                      <br><br> продолжительность - 60 минут
-                                    </p>
-                                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                      <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
-                                      <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
-                                    </div>
-                              </div>
-                            </div>
-                          </div>-->
-                          <!--<div class="col-xl-4 col-md-6 col-sm-12">
-                            <div class="card-about">
-                              <div class="picture picture_img14"></div>
-                              <div class="card-body">
-                                <h5 class="card-title mt-3 mb-2">Боди-релакс</h5>
-                                    <p class="text_card">Вы сможете отлично завершить выходной день тренировкой "Боди-релакс"! Программа, объединившая в себе упражнения из нескольких направлений: Пилатеса, Стретчинга (растяжки) и Йоги, подойдет всем любителям вечерних тренировок!
-                                      <br><br> продолжительность - 60 минут
-                                    </p>
-                                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                      <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
-                                      <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
-                                    </div>
-                              </div>
-                            </div>
-                          </div>-->
-                          <div class="col-xl-4 col-md-6 col-sm-12">
-                            <div class="card-about">
-                              <div class="picture picture_img15"></div>
-                              <div class="card-body">
-                                <h5 class="card-title mt-3 mb-2">Утренняя гимнастика</h5>
-                                    <p class="text_card">Получить заряд бодрости, здоровья и хорошего настроения на весь день? Легко! Вместе с нашим фитнес-тренером вы оздоровите позвоночник, укрепите мышцы и связки, улучшите кровообращение, запустите метаболизм!
-                                      <br><br> продолжительность - 60 минут
-                                    </p>
-                                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                                      <a href="https://wa.me//79995285403" class="btn btn btn-secondary" type="button"><i class='bx bxl-whatsapp'></i>записаться</a>
-                                      <a href="https://t.me/studianadvinskoy" class="btn btn btn-secondary" type="button"><i class='bx bxl-telegram'></i> записаться</a>
-                                    </div>
-                              </div>
-                            </div>
-
-                          </div>
-
+                        </div>
                     </div>
-                  </div>
                 </div>
-                </div>
-              </div>
             </div>
-          </div>
+        </div>
+
 
     </section>
-      </main>
-      <!-- /* main */ -->
-      <!-- /* footer */ -->
-      <footer class="footer d-flex align-items-center justify-content-space-around">
+</main>
+<!-- /* main */ -->
+<!-- /* footer */ -->
+<footer class="footer d-flex align-items-center justify-content-space-around">
 
-        <div class="container-xxl px-4 overflow-hidden text-center">
+    <div class="container-xxl px-4 overflow-hidden text-center">
 
 
-            <div class="row d-flex ">
-              <div class="col-12">
+        <div class="row d-flex ">
+            <div class="col-12">
 
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                  <div class="footer-sci">
-                    <a href="#"><i class='bx bxl-telegram'></i></a>
-                    <a href="https://vk.com/studianadvinskoy14"><i class='bx bxl-vk'></i></a>
-                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
-                  </div>
-                  <hr>
-                  <div class="footer-text">
-                    <p>Copyright &copy; 2023 dy KaletskiyAB <i class='bx bxs-heart'></i>  | All Right Reserved.</p>
-                  </div>
+                    <div class="footer-sci">
+                        <a href="#"><i class='bx bxl-telegram'></i></a>
+                        <a href="https://vk.com/studianadvinskoy14"><i class='bx bxl-vk'></i></a>
+                        <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    </div>
+                    <hr>
+                    <div class="footer-text">
+                        <p>Copyright &copy; 2023 dy KaletskiyAB <i class='bx bxs-heart'></i> | All Right Reserved.</p>
+                    </div>
                 </div>
-              </div>
             </div>
-
-
         </div>
-      </footer>
 
 
+    </div>
+</footer>
 
 
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
 
-
-
-
-
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
-
-  </body>
+</body>
 </html>

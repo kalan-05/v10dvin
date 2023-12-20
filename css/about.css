@@ -39,7 +39,7 @@ nav {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .top-menu li a::after {
   content: '';
@@ -53,11 +53,17 @@ nav {
 .top-menu li a:hover::after {
 transform: scale(1);
 }
+.top-menu {
+  font-size: 0.9rem;
+}
 .address {
   margin-left: 5rem;
 }
 .address h6 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  margin: 0;
 }
 .img__logo {
   margin-left: 25px;
@@ -69,7 +75,7 @@ transform: scale(1);
 /* header */
 /* main */
 .carousel-item h1 {
-  font-size: 2rem; 
+  font-size: 2rem;
   line-height: 3rem;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
@@ -154,7 +160,7 @@ font-weight: 400;
 .card-about img {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-  
+
 }
 .card-body p {
   font-family: 'Roboto', sans-serif;
@@ -174,15 +180,18 @@ font-weight: 400;
 }
 /* card */
 /* btn */
-.btn-record .btn {
-  
+.btn-record {
   cursor: pointer;
-  /* background-color: var(--bgb-color); */
-  /* box-shadow: 0 0 29px -11px  rgba(0, 0, 0, 0.8 );
-  transition: all .3s; */
+  background-color: var( --bg-color);
+  font-weight: 500;
+  color: var(--fon--color);
+  box-shadow: 0 0 29px -11px  rgba(0, 0, 0, 0.8 );
+  transition: all .3s;
 }
 .btn-record:hover {
-  background-color: var(--text-color);
+  background-color: #adabab;
+  font-weight:500;
+  color: var(--text-color);
   box-shadow: 0 0 20px -11px  rgba(0, 0, 0, 0.8 );
 }
 .bx {

@@ -38,7 +38,7 @@ nav {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .top-menu li a::after {
   content: '';
@@ -52,8 +52,17 @@ nav {
 .top-menu li a:hover::after {
 transform: scale(1);
 }
+.top-menu {
+  font-size: 0.9rem;
+}
 .address {
   margin-left: 5rem;
+}
+.address h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  margin: 0;
 }
 .img__logo {
   margin-left: 25px;
@@ -197,7 +206,7 @@ font-weight: 400;
   background-image: url(../image/img_direct/Fitball_p2.jpg);
 }
 .picture_img8 {
-  background-image: url(../image/img_direct/Total\ Body_p.jpg);
+  background-image: url(../image/img_direct/total_body_p.jpg);
 }
 .picture_img9 {
   background-image: url(../image/img_direct/pilatas.jpg);
@@ -212,7 +221,7 @@ font-weight: 400;
   background-image: url(../image/img_direct/zdorov_12.jpg);
 }
 .picture_img13 {
-  background-image: url(../image/img_direct/balet\ ocanka_p_13.jpg);
+  background-image: url(../image/img_direct/balet_ocanka_p_13.jpg);
 }
 .picture_img14 {
   background-image: url(../image/img_direct/body-balet_p_14.jpg);
