@@ -201,7 +201,14 @@ font-weight: 400;
 }
 .text_card {
   margin-top: 1rem;
-  margin-left: 1.5rem;
+  margin-left: 5rem;
+}
+.list {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-left: 3rem;
 }
 /* card */
 /* btn */
