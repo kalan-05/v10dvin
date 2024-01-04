@@ -92,9 +92,9 @@ transform: scale(1);
 .carousel-item img {
   height: 100%;
 }
-.carousel-caption p {
+/* .carousel-caption p {
   color: var(--text-color);
-}
+} */
 .my-carousel .carousel-inner img {
   object-fit: cover;
 }
@@ -222,7 +222,7 @@ transform: scale(1);
   z-index: 1;
   overflow: hidden;
   transition: .5s;
-  margin-left: 5rem;
+  margin-left: 3rem;
   padding-left: 9px;
 }
 .footer-sci a::before {

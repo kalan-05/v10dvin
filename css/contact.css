@@ -225,7 +225,7 @@ section {
   z-index: 1;
   overflow: hidden;
   transition: .5s;
-  margin-left: 5rem;
+  margin-left: 3rem;
   padding-left: 9px;
 }
 .footer-sci a::before {
