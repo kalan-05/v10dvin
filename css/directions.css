@@ -78,39 +78,41 @@ transform: scale(1);
   line-height: 3rem;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
+  color: #dad7d7;
+  text-shadow: 1px 1px 2px rgb(95, 93, 93);
 }
 .carousel-item {
-  height: 100vh;
+  height: 100svh;
 }
 .carousel-item img {
   height: 100%;
 }
-.carousel-caption p {
+/* .carousel-caption p {
   color: var(--text-color);
-}
+} */
 .my-carousel .carousel-inner img {
   object-fit: cover;
 }
-.carousel-caption {
+/* .carousel-caption {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.5rem;
   letter-spacing: .1rem;
-}
-.list_carousel {
+} */
+/* .list_carousel {
   list-style: none;
   text-align: start;
   color: var(--fon--color);
-}
-.card_style {
+} */
+/* .card_style  {
   color: rgba(223, 219, 219, 0.79) !important;
   text-shadow: 1px 1px 1px #000;
 
-  /*color: #848181;*/
-  /*font-weight: 500;*/
+  color: #848181;
+  font-weight: 500;
 
-  /*font-weight: 800;*/
-}
+  font-weight: 800;
+} */
 section {
   padding: 50px 0;
   height: 100%;
@@ -172,7 +174,7 @@ font-weight: 400;
 /* card */
 .card-about {
   /* width: 80%; */
-  height: 700px;
+  height: 650px;
   margin-left: 1rem;
   margin-bottom: 2rem;
   width: 20rem;
@@ -258,11 +260,18 @@ font-weight: 400;
   text-align: center;
 }
 .text_card {
-  height: 25rem;
+  height: 20rem;
   margin: 20px 10px;
   padding: 10px 10px;
   line-height: 2rem;
-
+}
+.chor {
+  height: 22.5rem;
+  /* margin-bottom: px; */
+}
+.text_card__title {
+  margin-top: 20px;
+  padding-left: 20px;
 }
 /* card */
 /* btn */
@@ -294,6 +303,14 @@ font-weight: 400;
   color: var(--fon--color);
   text-align: center;
   margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.footer-text a {
+  color: #dad7d7;
+  text-shadow: 1px 1px 2px rgb(95, 93, 93);
+}
+.footer-text a:hover {
+  color: #000;
 }
 .footer-iconTop a {
   position: relative;
@@ -346,7 +363,7 @@ font-weight: 400;
   z-index: 1;
   overflow: hidden;
   transition: .5s;
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
   padding-left: 9px;
 }
 .footer-sci a::before {
