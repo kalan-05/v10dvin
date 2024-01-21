@@ -126,8 +126,8 @@ section {
 }
 .icon  .bx {
   margin-right: 2rem;
-  margin-left: 2rem;
-  padding-left: 2rem;
+  margin-left: 1rem;
+  padding-left: 1.5rem;
   font-size: 2rem;
 }
 .content_contact li {
