@@ -91,6 +91,10 @@ transform: scale(1);
 .carousel-item {
   height: 100svh;
 }
+
+/* .my-carousel .carousel-inner img {
+  object-fit: cover;
+} */
 .carousel-item img {
   height: 100%;
 }
